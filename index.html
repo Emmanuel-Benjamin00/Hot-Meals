@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Qwigley&family=Source+Sans+3:wght@400;700&display=swap"
+    rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/hero/banana leaf.png">
+</head>
+
+<body>
+  <div class="px-1 py-2">
+    <header
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none hot-meals">
+        <h1 class="bi me-1 qwigley text-warning px-4" width="40" height="32">Hot Meals</h1>
+      </a>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center  mb-md-0">
+        <li>
+          <p style="white-space: nowrap">
+            <span class="text-secondary fs-6 fw-bold source-sans-3 lh-100per">Deliver to: </span>
+            <img src="./images/header/location symbol.png" alt="">
+            <span class="text-secondary open-sans fs-6 lh-140per">Current Location</span>
+            <span class="text-secondary fs-6 fw-bold open-sans lh-100per">Ashok Nagar, Chennai-600013</span>
+          </p>
+        </li>
+      </ul>
+
+      <div class="col-md-3 text-end d-flex gap-3 pb-3">
+        <div class="d-flex align-items-center">
+          <img src="./images/header/Search image.svg" alt="" class="mr-2">
+          <input type="search" class="form-control form-control-dark border-0 text-secondary fs-6 fw-bold"
+            style="width: 9rem;" placeholder="Search Food" aria-label="Search">
+        </div>
+        <button type="button" class="btn btn-outline-warning me-2" style="white-space: nowrap;">
+          <img class="pe-2 pb-1" src="./images/header/login image.svg" alt="">Login
+        </button>
+      </div>
+
+    </header>
+  </div>
+
+  <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+
+  <div class=" col-auto px-4 bg-warning mb-5 hero">
+    <div class="row flex-lg-row-reverse align-items-center bg-warning g-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/hero/banana leaf.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Look at your fav Meals</h1>
+        <p class="lead">Within a few clicks, find meals that are accessible near you</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+          <div class="col-lg-7 col-xl-6">
+            <div class="card" style="width: 28rem;">
+              <div class="card-body">
+
+                <div class="pb-1 d-flex">
+                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 hero-button-delivery"
+                    style="white-space: nowrap;"><img src="./images/hero/bike.svg" alt="" class="pe-2">Delivery</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4 hero-button-pickup "
+                    style="white-space: nowrap;"><img src="./images/hero/bag.svg" alt="" class="pe-2">Pickup</button>
+                </div>
+
+                <hr />
+
+                <div class="d-flex gap-3">
+                  <div class="d-inline-flex align-items-center address">
+                    <img src="./images/hero/location.svg" alt="" class="mr-2">
+                    <input type="search" class="form-control form-control-dark border-0 text-secondary fs-6 fw-bold"
+                      style="width: 15rem; background-color:#F5F5F5 ;" placeholder="Enter Your Address"
+                      aria-label="Search">
+                  </div>
+                  <a href="#" class="btn btn-warning find-food-btn"><img src="./images/hero/search.svg" alt=""
+                      class="pb-1 pe-2">Find
+                    food</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+  <div class=" col-auto px-4 mb-5 _30-min">
+    <div class="album">
+      <div class="py-5">
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-5 g-3 justify-content-center">
+          <div class="col">
+            <div class="card border-0 card h-100">
+              <img src="./images/thirty-min-del/Vada.png" class="bd-placeholder-img card-img-top" width="100%"
+                height="210" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Vada</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p>30 min Delivery</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 h-100">
+              <img src="./images/thirty-min-del/idly.png" class="bd-placeholder-img card-img-top" width="100%"
+                height="210" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Idly</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p>30 min Delivery</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 h-100">
+              <img src="./images/thirty-min-del/parotta.png" class="bd-placeholder-img card-img-top" width="100%"
+                height="210" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Parotta</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p>30 min Delivery</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 h-100">
+              <img src="./images/thirty-min-del/kichadi.png" class="bd-placeholder-img card-img-top" width="100%"
+                height="210" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Kichadi</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p>30 min Delivery</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------------------------------------------------------------------------------------------------------------------- -->
+
+  <div class="my-5 d-flex justify-content-center align-items-center">
+    <div class="d-flex flex-column justify-content-center">
+      <div class="d-flex flex-direction-column justify-content-center mb-4 how-does-work">
+        <h2>How does it work</h2>
+      </div>
+
+
+      <div class="d-flex justify-content-center flex-wrap gap-4 how-work">
+        <div class="card mb-3 border-0" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/How-does-it-work/percent.svg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Daily<br />
+                  Discounts</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="./images/How-does-it-work/HR.svg" alt="">
+
+        <div class="card mb-3 border-0 ps-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/How-does-it-work/location big.svg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Live<br />
+                  Tracing</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="./images/How-does-it-work/HR.svg" alt="">
+
+        <div class="card mb-3 border-0 ps-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/How-does-it-work/clock.svg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Quick<br />
+                  Delivery</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+  <div class="d-flex flex-column flex-wrap pt-5 search-by-food-content">
+    <h3 class="mb-4 ms-5">Search by Food</h2>
+      <div class="d-flex gap-5 justify-content-center flex-wrap ">
+
+        <div class="d-flex flex-column align-items-center gap-3">
+          <img src="./images/Search-by-food/dosa.png" class="bd-placeholder-img rounded-circle" width="140" height="140"
+            aria-label="Placeholder" role="img" alt="">
+          <h2 class="fw-normal">Dosa</h2>
+        </div>
+
+        <div class="d-flex flex-column align-items-center gap-3">
+          <img src="./images/Search-by-food/aapam.png" class="bd-placeholder-img rounded-circle" width="140"
+            height="140" aria-label="Placeholder" role="img" alt="">
+          <h2 class="fw-normal">Aappam</h2>
+        </div>
+
+        <div class="d-flex flex-column align-items-center gap-3">
+          <img src="./images/Search-by-food/puttu.png" class="bd-placeholder-img rounded-circle" width="140"
+            height="140" aria-label="Placeholder" role="img" alt="">
+          <h2 class="fw-normal">Puttu</h2>
+        </div>
+
+        <div class="d-flex flex-column align-items-center gap-3">
+          <img src="./images/Search-by-food/idiyappam.png" class="bd-placeholder-img rounded-circle" width="140"
+            height="140" aria-label="Placeholder" role="img" alt="">
+          <h2 class="fw-normal">Idiyappam</h2>
+        </div>
+
+        <div class="d-flex flex-column align-items-center gap-3">
+          <img src="./images/Search-by-food/pongal.png" class="bd-placeholder-img rounded-circle" width="140"
+            height="140" aria-label="Placeholder" role="img" alt="">
+          <h2 class="fw-normal">Pongal</h2>
+        </div>
+
+        <div class="d-flex flex-column align-items-center gap-3">
+          <img src="./images/Search-by-food/veg rice.png" class="bd-placeholder-img rounded-circle" width="140"
+            height="140" aria-label="Placeholder" role="img" alt="">
+          <h2 class="fw-normal">Veg Rice</h2>
+        </div>
+
+      </div>
+  </div>
+
+  <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+  <div class="container col-xxl-8 px-4 py-5 Proceed">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-10 col-lg-7">
+        <img src="./images/banana-leaf-idly.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+      <div class="col-lg-5">
+        <h1 class="display-5 fw-bold lh-1 mb-3"><span>Best deals</span><span class="text-warning"> Crispy Diffen</span>
+        </h1>
+        <p class="lead">Enjoy the large size of Dosa. Complete<br />
+          perfect slice of Dosa.</p>
+        <div class="">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 bg-warning sub-but-foot col-md-12 mt-3"
+            style="width: 430px;">Proceed to order<i class="fa-solid fa-chevron-right ps-2"></i></button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+
+  <div class="popular-items">
+    <div class=" marketing col-auto px-5 py-2  mb-5 d-flex flex-column justify-content-md-start align-items-center">
+      <div>
+        <h2 class="ps-5 fs-2">Popular Items</h2>
+      </div>
+      <div class="d-flex flex-wrap justify-content-center align-items-center gap-4">
+        <div class="card border-0 card h-100 pt-1">
+          <img src="./images/Popular Items/Murukku.png" class="bd-placeholder-img card-img-top p-2" width="100%"
+            height="180" alt="">
+          <div class=" d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title popular-font">Murukku</h5>
+            <div class="">
+              <button type="button" class="btn btn-primary m-0 order-button btn-warning text-light"
+                style="width: 170px;">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 card h-100 pt-1">
+          <img src="./images/Popular Items/paniyaram.png" class="bd-placeholder-img card-img-top p-2" width="100%"
+            height="180" alt="">
+          <div class=" d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title">Paniyaram</h5>
+            <div class="">
+              <button type="button" class="btn btn-primary m-0 order-button btn-warning text-light"
+                style="width: 170px;">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 card h-100 pt-1">
+          <img src="./images/Popular Items/seeval murukku.png" class="bd-placeholder-img card-img-top p-2" width="100%"
+            height="180" alt="">
+          <div class=" d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title">Seeval Murukku</h5>
+            <div class="">
+              <button type="button" class="btn btn-primary m-0 order-button btn-warning text-light"
+                style="width: 170px;">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 card h-100 pt-1">
+          <img src="./images/Popular Items/mizture.png" class="bd-placeholder-img card-img-top p-2" width="100%"
+            height="180" alt="">
+          <div class=" d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title">Mixture</h5>
+            <div class="">
+              <button type="button" class="btn btn-primary m-0 order-button btn-warning text-light"
+                style="width: 170px;">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 card h-100 pt-1">
+          <img src="./images/Popular Items/veg soup.png" class="bd-placeholder-img card-img-top p-2" width="100%"
+            height="180" alt="">
+          <div class=" d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title">Veg Soup</h5>
+            <div class="">
+              <button type="button" class="btn btn-primary m-0 order-button btn-warning text-light"
+                style="width: 170px;">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 card h-100 pt-1">
+          <img src="./images/Popular Items/gulab jamun.png" class="bd-placeholder-img card-img-top p-2" width="100%"
+            height="180" alt="">
+          <div class=" d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title">Gulab Jamun</h5>
+            <div class="">
+              <button type="button" class="btn btn-primary m-0 order-button btn-warning text-light"
+                style="width: 170px;">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 card h-100 pt-1">
+          <img src="./images/Popular Items/porivelanga urundai.png" class="bd-placeholder-img card-img-top p-2"
+            width="100%" height="180" alt="">
+          <div class=" d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title">Porivellangai Urundai</h5>
+            <div class="">
+              <button type="button" class="btn btn-primary m-0 order-button btn-warning text-light"
+                style="width: 170px;">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 card h-100 pt-1">
+          <img src="./images/Popular Items/jangri.png" class="bd-placeholder-img card-img-top p-2" width="100%"
+            height="180" alt="">
+          <div class=" d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title">Jangri</h5>
+            <div class="">
+              <button type="button" class="btn btn-primary m-0 order-button btn-warning text-light"
+                style="width: 170px;">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 card h-100 pt-1">
+          <img src="./images/Popular Items/laddu.png" class="bd-placeholder-img card-img-top p-2" width="100%"
+            height="180" alt="">
+          <div class=" d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title">Laddu</h5>
+            <div class="">
+              <button type="button" class="btn btn-primary m-0 order-button btn-warning text-light"
+                style="width: 170px;">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border-0 card h-100 pt-1">
+          <img src="./images/Popular Items/halwa.png" class="bd-placeholder-img card-img-top p-2" width="100%"
+            height="180" alt="">
+          <div class=" d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title">Halwa</h5>
+            <div class="">
+              <button type="button" class="btn btn-primary m-0 order-button btn-warning text-light"
+                style="width: 170px;">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+  <div class="bg-dark">
+    <footer class="py-5 col-auto px-5 source-sans-3">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Company</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Team</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Careers</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Contact</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Help & Support</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Partner with us </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Ride with us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Legal</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Terms & Conditions</a>
+            </li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Refund & Cancellation</a>
+            </li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Privacy Policy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Cookie Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-lg-4 offset-md-1 mb-3">
+          <form>
+            <h5>Follow Us</h5>
+
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./images/Footer/instagram.svg"
+                    alt=""></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./images/Footer/facebook.svg"
+                    alt=""></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./images/Footer/twitter.svg" alt=""></a>
+              </li>
+            </ul>
+
+            <p>Receive exclusive offers in your mailbox</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+
+              <div class="input-container d-flex p-1 " style="border-radius: 8px; background-color: #f5f5f5;">
+                <img src="./images/Footer/envelope.svg" alt="">
+                <label for="newsletter1" class="visually-hidden">Enter Your email</label>
+                <input id="newsletter1" type="text" class="form-control border-0" placeholder="Enter Your email"
+                  style="color: #F5F5F5;">
+              </div>
+              <button class="btn bg-warning sub-but-foot" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="d-flex  flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>All rights Reserved © </p>
+        <p><span>Made with <span> <img src="./images/Footer/heart-fill.svg" alt=""></span>
+            by</span><span>Emmanuel</span></p>
+      </div>
+    </footer>
+  </div>
+  <script src="https://kit.fontawesome.com/f0eb52c1d5.js" crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
